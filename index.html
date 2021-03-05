@@ -2,69 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Progate</title>
+    <title>Portfolio Ninja Ken</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <div class="header">
-        <div class="header-logo">Progate</div>
-        <div class="header-list">
-            <ul>
-                <li>Tentang</li>
-                <li>Pelajaran</li>
-                <li>Hubungi Kami</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="main">
-        <div class="copy-container">
-            <h1>HELLO WORLD<span>.</span></h1>
-            <h2>Ayo belajar coding</h2>
-        </div>
-        <div class="contents">
-            <h3 class="section-title">Pelajaran</h3>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-          <p>HTML & CSS</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-          <p>PHP</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-          <p>Ruby</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-          <p>Swift</p>
-        </div>
-    </div>
-
-    <div class="contact-form">
-        <h3 class="section-title">Hubungi kami</h3>
-        <p>Email (Wajib Diisi)</p>
-        <!-- Tambahkan tag <input> -->
-        <input>
-        <p>Pesan (Wajib Diisi)</p>
-        <!-- Tambahkan tag <textarea> --> 
-        <textarea></textarea>
-        <p>*Bidang Wajib Diisi</p>
-        <!-- Tambahkan tag <input> -->
-        <input class="contact-submit" type="submit" value="kirim">
+      <div class="header-logo">
+        <video autoplay loop muted playsinline class="logo" src="images/Logo Raissa Fortfolio.mp4" alt="Logo">
       </div>
-    </div>
-
-    <div class="footer">
-        <div class="footer-logo">Progate</div>
-      <div class="footer-list">
+      <div class="header-list">
         <ul>
-          <li>Tentang</li>
-          <li>Karier</li>
-          <li>Hubungi Kami</li>
+          <li><a href="#about-link">Personal Profile</a></li>
+          <li><a href="#work-link">Project</a></li>
+          <li><a href="#contact-link">Contacts</a></li>
         </ul>
       </div>
     </div>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>Raissa Miranda Anastasya Situmorang<span>.</span></h1>
+        <h2>MY PORTFOLIO</h2>
+        <img src="images/3x4-01.png" alt="Foto-Raissa">
+      </div>
+      
+      <div class="about">
+        <h3><a id="about-link">Personal Profile</a></h3>
+        <p>Fresh Graduated from Del Institute of Technology Associate Degree of Technology Information. A persistent, creative, and quick learner. Interested in UI/UX Design. Can work individual or in a team. Happy to try new things and responsible.</p>
+        <br>
+        <h5>Education</h5>
+        <p>Del Institute of Technology</p>
+        <p>ASSOCIATE OF INFORMATION TECHNOLOGY 2017-2020</p>
+      </div>
+
+      <div class="contents">
+        <h3><a id="work-link">Selected Project</a></h3>
+        <div class="contents-item">
+          <img src="images/project1.png">
+          <p>Project 1</p>
+        </div>
+        <div class="contents-item">
+          <img src="images/project2.png">
+          <p>Project 2</p>
+        </div>
+        <div class="contents-item">
+          <img src="images/project1.png">
+          <p>Project 3</p>
+        </div>
+        
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="contact-title"><a id="contact-link">Contacts</a></h3>
+        <input placeholder="Email (Diperlukan)">
+        <br>
+        <textarea placeholder="Message (Diperlukan)"></textarea>
+        <br>
+        <input class="contact-submit" type="submit" value="Kirim">
+        <p>* Required fields must be filled</p>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <video autoplay loop muted playsinline class="logo" src="images/Logo Raissa Fortfolio.mp4" alt="Logo">
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+    </footer>
   </body>
 </html>
